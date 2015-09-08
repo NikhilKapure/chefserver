@@ -40,7 +40,7 @@ chef-solo (via the chef-client Omnibus packages) and bootstrap the
 system using this script:
 
     # install chef-server
-    https://github.com/ravibhure/chefserver/blob/master/setup.sh
+    curl -s -L https://github.com/ravibhure/chefserver/raw/master/setup.sh | sudo bash
 
 
 This script will install and setup opscode chefserver for you with addons to access
